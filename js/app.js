@@ -29,6 +29,8 @@ window.onload = function() {
       var imageCapturer = new ImageCapture(_videoStream);
       imageCapturer.onphoto = function(blobEvent, b) {
         document.getElementById('photo-taken').src = window.URL.createObjectURL(blobEvent.data);
+        saveAs(blobEvent.data, "image.png");
+
         videoPreviewElement.classList.add('hidden');
         buttonElement.classList.add('hidden');
       };
