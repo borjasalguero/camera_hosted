@@ -1,0 +1,59 @@
+body, html {
+  font-family: 'fira_sanslight', sans;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden !important;
+}
+
+body {
+  height: 100%;
+  background:  url(img/gradient@2.25x.png);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+button {
+  position: absolute;
+  z-index: 100;
+  bottom: 1rem;
+  left: calc(50% - 4.5rem);
+  border-radius: 4.5rem;
+  width: 9rem;
+  height: 9rem;
+  background: white;
+  border: none;
+  font-size: 1.8rem;
+  color: #00CAF2;
+  background: url("img/camera3.svg") no-repeat scroll center center / 4rem auto rgba(255, 255, 255, 1);
+}
+
+button:active {
+  background: url("img/camera3.svg") no-repeat scroll center center / 4rem auto rgba(255, 255, 255, 0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+#photo-preview {
+  height: 100%;
+  width: auto;
+  margin-left: -15%;
+  position: relative;
+}
+
+#photo-taken[src=""] {
+  display: none;
+}
+
+#photo-taken {
+  width: 100%;
+  height: auto;
+  position: relative;
+}

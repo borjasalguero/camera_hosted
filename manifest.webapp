@@ -1,0 +1,30 @@
+{
+  "name": "CameraHosted",
+  "description": "CameraHosted",
+  "launch_path": "/camera_hosted/index.html",
+  "developer": {
+    "name": "Firefox OS Educational",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "permissions": {
+    "video-capture": {
+      "description": "Share with CameraHosted the video stream captured through the camera(s)"
+    }
+  },
+  "locales": {
+    "en-US": {
+      "name": "CameraHosted",
+      "description": "CameraHosted"
+    },
+    "es": {
+      "name": "CameraHosted",
+      "description": "CameraHosted"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "http://logofid.es/camera_hosted/style/icons/128.png",
+    "512": "http://logofid.es/camera_hosted/style/icons/512.png"
+  },
+  "version": "1"
+}
